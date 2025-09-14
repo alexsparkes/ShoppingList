@@ -48,3 +48,26 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## Shopping List changes
+
+This project has been adapted into a simple Shopping List app.
+
+Features:
+
+- Add items with optional quantity
+- Tap to toggle purchased
+- Delete items and clear all purchased
+- Persists data with AsyncStorage
+
+Key files:
+
+- `app/(tabs)/index.tsx` — Shopping List screen
+- `app/(tabs)/_layout.tsx` — Tab titles and icons
+- `storage/groceryStore.ts` — Persistence helpers
+
+Run it:
+
+1. Install dependencies
+2. Start the app with `npx expo start`
+3. Open iOS, Android, or Web from the Expo dev tools
